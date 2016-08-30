@@ -32,3 +32,6 @@ bstrlib.txt
 build
 cmark.dSYM/*
 cmark
+
+.build
+Packages

@@ -1,5 +1,0 @@
-module cmark {
-    umbrella header "/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/include/cmark.h"
-    link "cmark"
-    export *
-}
