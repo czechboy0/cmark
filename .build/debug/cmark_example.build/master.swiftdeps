@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0-dev (LLVM f54fa77021, Clang 9a77bc41b8, Swift e41f023c99)"
+options: "e46c36b2484fe6b5b88924c0a3da62bb"
+build_time: [525870479, 128164000]
+inputs:
+  "/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark-example/main.swift": [525870461, 0]

@@ -1,0 +1,190 @@
+client:
+  name: swift-build
+tools: {}
+targets:
+  "test": ["/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/blocks.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/buffer.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/cmark.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/cmark_ctype.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/commonmark.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/houdini_href_e.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/houdini_html_e.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/houdini_html_u.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/html.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/inlines.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/iterator.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/latex.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/man.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/node.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/references.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/render.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/scanners.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/utf8.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/xml.c.o","<cmark-example.module>","<cmark-example.exe>","<cmark.dylib>"]
+  "main": ["/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/blocks.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/buffer.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/cmark.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/cmark_ctype.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/commonmark.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/houdini_href_e.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/houdini_html_e.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/houdini_html_u.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/html.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/inlines.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/iterator.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/latex.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/man.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/node.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/references.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/render.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/scanners.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/utf8.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/xml.c.o","<cmark-example.module>","<cmark-example.exe>","<cmark.dylib>"]
+default: "main"
+commands: 
+  "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/blocks.c.o":
+    tool: clang
+    description: "Compile cmark blocks.c"
+    inputs: ["/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/blocks.c"]
+    outputs: ["/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/blocks.c.o"]
+    args: ["/Applications/Xcode-beta3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-F","/Applications/Xcode-beta3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fobjc-arc","-fmodules","-fmodule-name=cmark","-arch","x86_64","-mmacosx-version-min=10.10","-isysroot","/Applications/Xcode-beta3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-fmodules-cache-path=/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/ModuleCache","-g","-O0","-MD","-MT","dependencies","-MF","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/blocks.c.d","-c","/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/blocks.c","-o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/blocks.c.o","-I","/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/include"]
+    deps: "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/blocks.c.d"
+
+  "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/buffer.c.o":
+    tool: clang
+    description: "Compile cmark buffer.c"
+    inputs: ["/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/buffer.c"]
+    outputs: ["/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/buffer.c.o"]
+    args: ["/Applications/Xcode-beta3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-F","/Applications/Xcode-beta3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fobjc-arc","-fmodules","-fmodule-name=cmark","-arch","x86_64","-mmacosx-version-min=10.10","-isysroot","/Applications/Xcode-beta3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-fmodules-cache-path=/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/ModuleCache","-g","-O0","-MD","-MT","dependencies","-MF","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/buffer.c.d","-c","/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/buffer.c","-o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/buffer.c.o","-I","/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/include"]
+    deps: "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/buffer.c.d"
+
+  "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/cmark.c.o":
+    tool: clang
+    description: "Compile cmark cmark.c"
+    inputs: ["/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/cmark.c"]
+    outputs: ["/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/cmark.c.o"]
+    args: ["/Applications/Xcode-beta3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-F","/Applications/Xcode-beta3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fobjc-arc","-fmodules","-fmodule-name=cmark","-arch","x86_64","-mmacosx-version-min=10.10","-isysroot","/Applications/Xcode-beta3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-fmodules-cache-path=/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/ModuleCache","-g","-O0","-MD","-MT","dependencies","-MF","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/cmark.c.d","-c","/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/cmark.c","-o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/cmark.c.o","-I","/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/include"]
+    deps: "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/cmark.c.d"
+
+  "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/cmark_ctype.c.o":
+    tool: clang
+    description: "Compile cmark cmark_ctype.c"
+    inputs: ["/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/cmark_ctype.c"]
+    outputs: ["/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/cmark_ctype.c.o"]
+    args: ["/Applications/Xcode-beta3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-F","/Applications/Xcode-beta3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fobjc-arc","-fmodules","-fmodule-name=cmark","-arch","x86_64","-mmacosx-version-min=10.10","-isysroot","/Applications/Xcode-beta3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-fmodules-cache-path=/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/ModuleCache","-g","-O0","-MD","-MT","dependencies","-MF","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/cmark_ctype.c.d","-c","/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/cmark_ctype.c","-o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/cmark_ctype.c.o","-I","/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/include"]
+    deps: "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/cmark_ctype.c.d"
+
+  "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/commonmark.c.o":
+    tool: clang
+    description: "Compile cmark commonmark.c"
+    inputs: ["/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/commonmark.c"]
+    outputs: ["/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/commonmark.c.o"]
+    args: ["/Applications/Xcode-beta3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-F","/Applications/Xcode-beta3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fobjc-arc","-fmodules","-fmodule-name=cmark","-arch","x86_64","-mmacosx-version-min=10.10","-isysroot","/Applications/Xcode-beta3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-fmodules-cache-path=/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/ModuleCache","-g","-O0","-MD","-MT","dependencies","-MF","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/commonmark.c.d","-c","/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/commonmark.c","-o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/commonmark.c.o","-I","/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/include"]
+    deps: "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/commonmark.c.d"
+
+  "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/houdini_href_e.c.o":
+    tool: clang
+    description: "Compile cmark houdini_href_e.c"
+    inputs: ["/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/houdini_href_e.c"]
+    outputs: ["/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/houdini_href_e.c.o"]
+    args: ["/Applications/Xcode-beta3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-F","/Applications/Xcode-beta3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fobjc-arc","-fmodules","-fmodule-name=cmark","-arch","x86_64","-mmacosx-version-min=10.10","-isysroot","/Applications/Xcode-beta3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-fmodules-cache-path=/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/ModuleCache","-g","-O0","-MD","-MT","dependencies","-MF","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/houdini_href_e.c.d","-c","/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/houdini_href_e.c","-o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/houdini_href_e.c.o","-I","/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/include"]
+    deps: "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/houdini_href_e.c.d"
+
+  "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/houdini_html_e.c.o":
+    tool: clang
+    description: "Compile cmark houdini_html_e.c"
+    inputs: ["/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/houdini_html_e.c"]
+    outputs: ["/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/houdini_html_e.c.o"]
+    args: ["/Applications/Xcode-beta3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-F","/Applications/Xcode-beta3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fobjc-arc","-fmodules","-fmodule-name=cmark","-arch","x86_64","-mmacosx-version-min=10.10","-isysroot","/Applications/Xcode-beta3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-fmodules-cache-path=/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/ModuleCache","-g","-O0","-MD","-MT","dependencies","-MF","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/houdini_html_e.c.d","-c","/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/houdini_html_e.c","-o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/houdini_html_e.c.o","-I","/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/include"]
+    deps: "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/houdini_html_e.c.d"
+
+  "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/houdini_html_u.c.o":
+    tool: clang
+    description: "Compile cmark houdini_html_u.c"
+    inputs: ["/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/houdini_html_u.c"]
+    outputs: ["/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/houdini_html_u.c.o"]
+    args: ["/Applications/Xcode-beta3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-F","/Applications/Xcode-beta3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fobjc-arc","-fmodules","-fmodule-name=cmark","-arch","x86_64","-mmacosx-version-min=10.10","-isysroot","/Applications/Xcode-beta3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-fmodules-cache-path=/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/ModuleCache","-g","-O0","-MD","-MT","dependencies","-MF","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/houdini_html_u.c.d","-c","/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/houdini_html_u.c","-o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/houdini_html_u.c.o","-I","/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/include"]
+    deps: "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/houdini_html_u.c.d"
+
+  "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/html.c.o":
+    tool: clang
+    description: "Compile cmark html.c"
+    inputs: ["/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/html.c"]
+    outputs: ["/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/html.c.o"]
+    args: ["/Applications/Xcode-beta3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-F","/Applications/Xcode-beta3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fobjc-arc","-fmodules","-fmodule-name=cmark","-arch","x86_64","-mmacosx-version-min=10.10","-isysroot","/Applications/Xcode-beta3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-fmodules-cache-path=/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/ModuleCache","-g","-O0","-MD","-MT","dependencies","-MF","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/html.c.d","-c","/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/html.c","-o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/html.c.o","-I","/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/include"]
+    deps: "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/html.c.d"
+
+  "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/inlines.c.o":
+    tool: clang
+    description: "Compile cmark inlines.c"
+    inputs: ["/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/inlines.c"]
+    outputs: ["/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/inlines.c.o"]
+    args: ["/Applications/Xcode-beta3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-F","/Applications/Xcode-beta3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fobjc-arc","-fmodules","-fmodule-name=cmark","-arch","x86_64","-mmacosx-version-min=10.10","-isysroot","/Applications/Xcode-beta3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-fmodules-cache-path=/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/ModuleCache","-g","-O0","-MD","-MT","dependencies","-MF","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/inlines.c.d","-c","/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/inlines.c","-o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/inlines.c.o","-I","/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/include"]
+    deps: "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/inlines.c.d"
+
+  "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/iterator.c.o":
+    tool: clang
+    description: "Compile cmark iterator.c"
+    inputs: ["/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/iterator.c"]
+    outputs: ["/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/iterator.c.o"]
+    args: ["/Applications/Xcode-beta3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-F","/Applications/Xcode-beta3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fobjc-arc","-fmodules","-fmodule-name=cmark","-arch","x86_64","-mmacosx-version-min=10.10","-isysroot","/Applications/Xcode-beta3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-fmodules-cache-path=/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/ModuleCache","-g","-O0","-MD","-MT","dependencies","-MF","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/iterator.c.d","-c","/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/iterator.c","-o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/iterator.c.o","-I","/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/include"]
+    deps: "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/iterator.c.d"
+
+  "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/latex.c.o":
+    tool: clang
+    description: "Compile cmark latex.c"
+    inputs: ["/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/latex.c"]
+    outputs: ["/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/latex.c.o"]
+    args: ["/Applications/Xcode-beta3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-F","/Applications/Xcode-beta3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fobjc-arc","-fmodules","-fmodule-name=cmark","-arch","x86_64","-mmacosx-version-min=10.10","-isysroot","/Applications/Xcode-beta3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-fmodules-cache-path=/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/ModuleCache","-g","-O0","-MD","-MT","dependencies","-MF","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/latex.c.d","-c","/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/latex.c","-o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/latex.c.o","-I","/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/include"]
+    deps: "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/latex.c.d"
+
+  "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/man.c.o":
+    tool: clang
+    description: "Compile cmark man.c"
+    inputs: ["/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/man.c"]
+    outputs: ["/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/man.c.o"]
+    args: ["/Applications/Xcode-beta3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-F","/Applications/Xcode-beta3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fobjc-arc","-fmodules","-fmodule-name=cmark","-arch","x86_64","-mmacosx-version-min=10.10","-isysroot","/Applications/Xcode-beta3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-fmodules-cache-path=/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/ModuleCache","-g","-O0","-MD","-MT","dependencies","-MF","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/man.c.d","-c","/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/man.c","-o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/man.c.o","-I","/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/include"]
+    deps: "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/man.c.d"
+
+  "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/node.c.o":
+    tool: clang
+    description: "Compile cmark node.c"
+    inputs: ["/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/node.c"]
+    outputs: ["/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/node.c.o"]
+    args: ["/Applications/Xcode-beta3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-F","/Applications/Xcode-beta3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fobjc-arc","-fmodules","-fmodule-name=cmark","-arch","x86_64","-mmacosx-version-min=10.10","-isysroot","/Applications/Xcode-beta3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-fmodules-cache-path=/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/ModuleCache","-g","-O0","-MD","-MT","dependencies","-MF","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/node.c.d","-c","/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/node.c","-o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/node.c.o","-I","/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/include"]
+    deps: "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/node.c.d"
+
+  "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/references.c.o":
+    tool: clang
+    description: "Compile cmark references.c"
+    inputs: ["/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/references.c"]
+    outputs: ["/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/references.c.o"]
+    args: ["/Applications/Xcode-beta3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-F","/Applications/Xcode-beta3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fobjc-arc","-fmodules","-fmodule-name=cmark","-arch","x86_64","-mmacosx-version-min=10.10","-isysroot","/Applications/Xcode-beta3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-fmodules-cache-path=/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/ModuleCache","-g","-O0","-MD","-MT","dependencies","-MF","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/references.c.d","-c","/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/references.c","-o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/references.c.o","-I","/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/include"]
+    deps: "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/references.c.d"
+
+  "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/render.c.o":
+    tool: clang
+    description: "Compile cmark render.c"
+    inputs: ["/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/render.c"]
+    outputs: ["/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/render.c.o"]
+    args: ["/Applications/Xcode-beta3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-F","/Applications/Xcode-beta3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fobjc-arc","-fmodules","-fmodule-name=cmark","-arch","x86_64","-mmacosx-version-min=10.10","-isysroot","/Applications/Xcode-beta3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-fmodules-cache-path=/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/ModuleCache","-g","-O0","-MD","-MT","dependencies","-MF","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/render.c.d","-c","/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/render.c","-o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/render.c.o","-I","/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/include"]
+    deps: "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/render.c.d"
+
+  "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/scanners.c.o":
+    tool: clang
+    description: "Compile cmark scanners.c"
+    inputs: ["/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/scanners.c"]
+    outputs: ["/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/scanners.c.o"]
+    args: ["/Applications/Xcode-beta3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-F","/Applications/Xcode-beta3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fobjc-arc","-fmodules","-fmodule-name=cmark","-arch","x86_64","-mmacosx-version-min=10.10","-isysroot","/Applications/Xcode-beta3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-fmodules-cache-path=/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/ModuleCache","-g","-O0","-MD","-MT","dependencies","-MF","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/scanners.c.d","-c","/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/scanners.c","-o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/scanners.c.o","-I","/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/include"]
+    deps: "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/scanners.c.d"
+
+  "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/utf8.c.o":
+    tool: clang
+    description: "Compile cmark utf8.c"
+    inputs: ["/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/utf8.c"]
+    outputs: ["/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/utf8.c.o"]
+    args: ["/Applications/Xcode-beta3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-F","/Applications/Xcode-beta3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fobjc-arc","-fmodules","-fmodule-name=cmark","-arch","x86_64","-mmacosx-version-min=10.10","-isysroot","/Applications/Xcode-beta3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-fmodules-cache-path=/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/ModuleCache","-g","-O0","-MD","-MT","dependencies","-MF","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/utf8.c.d","-c","/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/utf8.c","-o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/utf8.c.o","-I","/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/include"]
+    deps: "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/utf8.c.d"
+
+  "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/xml.c.o":
+    tool: clang
+    description: "Compile cmark xml.c"
+    inputs: ["/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/xml.c"]
+    outputs: ["/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/xml.c.o"]
+    args: ["/Applications/Xcode-beta3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-F","/Applications/Xcode-beta3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fobjc-arc","-fmodules","-fmodule-name=cmark","-arch","x86_64","-mmacosx-version-min=10.10","-isysroot","/Applications/Xcode-beta3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-fmodules-cache-path=/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/ModuleCache","-g","-O0","-MD","-MT","dependencies","-MF","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/xml.c.d","-c","/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/xml.c","-o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/xml.c.o","-I","/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark/include"]
+    deps: "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/xml.c.d"
+
+  "<cmark-example.module>":
+    tool: swift-compiler
+    executable: "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-08-29-a.xctoolchain/usr/bin/swiftc"
+    module-name: "cmark_example"
+    module-output-path: "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark_example.swiftmodule"
+    inputs: []
+    outputs: ["<cmark-example.module>","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark_example.build/main.swift.o"]
+    import-paths: ["/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug"]
+    temps-path: "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark_example.build"
+    objects: ["/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark_example.build/main.swift.o"]
+    other-args: ["-j8","-D","SWIFT_PACKAGE","-Onone","-g","-enable-testing","-F","/Applications/Xcode-beta3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode-beta3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-module-cache-path","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/ModuleCache"]
+    sources: ["/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark-example/main.swift"]
+    is-library: false
+    enable-whole-module-optimization: false
+    num-threads: "8"
+
+  "<cmark-example.exe>":
+    tool: shell
+    description: "Linking ./.build/debug/cmark-example"
+    inputs: ["/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark_example.build/main.swift.o"]
+    outputs: ["<cmark-example.exe>","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark-example"]
+    args: ["/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-08-29-a.xctoolchain/usr/bin/swiftc","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode-beta3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk","-g","-L/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug","-o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark-example","-F","/Applications/Xcode-beta3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-emit-executable","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark_example.build/main.swift.o"]
+
+  "<cmark.dylib>":
+    tool: shell
+    description: "Linking cmark"
+    inputs: ["/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/blocks.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/buffer.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/cmark.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/cmark_ctype.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/commonmark.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/houdini_href_e.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/houdini_html_e.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/houdini_html_u.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/html.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/inlines.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/iterator.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/latex.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/man.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/node.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/references.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/render.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/scanners.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/utf8.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/xml.c.o"]
+    outputs: ["/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/libcmark.dylib","<cmark.dylib>"]
+    args: ["/Applications/Xcode-beta3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-F","/Applications/Xcode-beta3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-L/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/blocks.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/buffer.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/cmark.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/cmark_ctype.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/commonmark.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/houdini_href_e.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/houdini_html_e.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/houdini_html_u.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/html.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/inlines.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/iterator.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/latex.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/man.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/node.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/references.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/render.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/scanners.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/utf8.c.o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark.build/xml.c.o","-shared","-o","/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/libcmark.dylib"]
+

@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark_example.build/master.swiftdeps"
+  },
+  "/Users/honzadvorsky/Documents/Markdown/cmark/Sources/cmark-example/main.swift": {
+    "dependencies": "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark_example.build/main.d",
+    "object": "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark_example.build/main.swift.o",
+    "swiftmodule": "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark_example.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/honzadvorsky/Documents/Markdown/cmark/.build/debug/cmark_example.build/main.swiftdeps"
+  }
+}
